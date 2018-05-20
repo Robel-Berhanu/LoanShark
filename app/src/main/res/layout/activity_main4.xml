@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.loanshark.Main4Activity"
+    >
+    
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="189dp"
+        android:layout_height="46dp"
+        android:text="Borrow Money"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="3dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="307dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="49dp">
+
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="How much do you wish to borrow?"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="159dp"
+            tools:ignore="MissingConstraints"
+            />
+
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="2000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="101dp"
+             />
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:text="Interest"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="159dp"
+            />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:text="Time"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="218dp"
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:text="Future Payment"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="277dp"
+            />
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:onClick="onDone"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="360dp"
+             />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

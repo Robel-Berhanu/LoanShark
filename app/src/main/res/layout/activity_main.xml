@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.loanshark.MainActivity"
+    android:background="@drawable/logo">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/Label"
+            android:layout_width="156dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:text="Registration"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="104dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="User ID"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="76dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="132dp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="239dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Surname"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="187dp" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="237dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Email"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="242dp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="239dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Phone"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        <TextView
+            android:layout_width="239dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:text="Create Password" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="235dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="password" />
+        <TextView
+            android:layout_width="239dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:text="Confirm Password" />
+        <EditText
+            android:id="@+id/confirmPassword"
+            android:layout_width="235dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="repeat password"
+            android:inputType="textPassword" />
+        <TextView
+            android:id="@+id/error_password"
+            android:layout_width="239dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Employed"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="358dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="115dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:text="Register"
+            android:onClick="onReg"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="398dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="115dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="onAlready"
+            android:text="Already Registered"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="515dp" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

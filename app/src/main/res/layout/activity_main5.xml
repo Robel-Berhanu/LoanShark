@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.loanshark.Main5Activity">
+<!---->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="221dp"
+        android:layout_height="40dp"
+        android:text="Make Payment"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="16dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Payment Made"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+
+        <!--<EditText-->
+            <!--android:id="@+id/editText10"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:hint="Date"-->
+            <!--android:inputType="date"-->
+            <!--tools:ignore="MissingConstraints"-->
+            <!--tools:layout_editor_absoluteX="16dp"-->
+            <!--tools:layout_editor_absoluteY="183dp" />-->
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="257dp" />
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
